@@ -12,6 +12,31 @@ import java.util.Scanner;
  */
 public class Homework3 {
 
+    static void MilasMethod(){
+        
+        System.out.println("This is Mila's method");
+        Scanner name = new Scanner (System.in);
+    
+        String UserName = "";
+        System.out.println("Please, enter your name");
+    
+        try{
+        UserName = name.nextLine();
+         }
+        
+         catch (Exception e){
+         System.out.println ("C");
+         }
+        
+         char result = UserName.charAt(0);
+         if (result == 'm'|| result == 'M'){
+         System.out.println("Join Mila's club");
+         }
+         else {
+         System.out.println("No entry =(");
+         } 
+         }
+
     /**
      * @param args the command line arguments
      */
