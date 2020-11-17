@@ -81,6 +81,46 @@ public class Homework3 {
 
 
 
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package multiplytwonumbers;
+import java.util.Scanner;
+/**
+ *
+ * @author Dinh Ngoc Bui
+ */
+public class Multiplytwonumbers {
+
+    /**
+     * @param args the command line arguments
+     */
+     public static void main(String[] args)
+    {
+        Scanner sc = null;
+        sc =new Scanner(System.in);
+        System.out.println("enter the 1st no");
+        int no1=sc.nextInt();
+       System.out.println("enter the 2nd no");
+        int no2=sc.nextInt();
+        // logic
+        int sum= 0;
+        sum= no1*no2;
+        System.out.println("Result is ="+sum);
+       // Dinh Ngoc Bui Method 
+              
+        
+    }
+    
+}
+
+    
+    
+    
+
+
 
 
 
