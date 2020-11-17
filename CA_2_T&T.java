@@ -15,7 +15,7 @@ public class Homework3 {
          System.out.println("Please, enter your name");
 
          try{
-             username = "";
+             username = myKB.nextLine();
          }
 
          catch(Exception e){
