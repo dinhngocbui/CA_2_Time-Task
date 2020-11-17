@@ -11,6 +11,34 @@ import java.util.Scanner;
  * @author
  */
 public class Homework3 {
+    static void ThiagosMethod(){
+        /**
+         * Author: Thiago
+         */
+
+         String username = "";
+         Scanner myKB = new Scanner(System.in);
+        
+         System.out.println("Please, enter your name");
+
+         try{
+             username = "";
+         }
+
+         catch(Exception e){
+             System.out.println("Error");
+         }
+
+         char result = username.chatAT(0);
+         if(result == 't' || result == 'T'){
+             System.out.println("Join Thiago`s club");
+         }
+
+         else{
+             System.out.println("No entry");
+         }
+
+    }
 
     static void MilasMethod(){
         
@@ -52,7 +80,7 @@ public class Homework3 {
 
         //use here to put your piece of code
 
-
+        ThiagosMethod();
 
 
 
